@@ -58,11 +58,11 @@ SMTPWP is a lightweight WordPress plugin that sends every email from your site t
 
 ![Gmail Accounts](SMTPWP-Multi-Gmail-SMTP.png)
 
-![Sending & Log](assets/sending.png)
+![Sending & Log](sending.png)
 
-![Test Email](assets/test.png)
+![Test Email](test.png)
 
-![Email Log](assets/log.png)
+![Email Log](log.png)
 
 ## Contact
 
