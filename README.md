@@ -1,6 +1,6 @@
 # SMTPWP — Multi Gmail SMTP
 
-![SMTPWP — Multi Gmail SMTP](assets/smtpwp-banner.png)
+![SMTPWP — Multi Gmail SMTP](SMTPWP-Multi-Gmail-SMTP.png)
 
 SMTPWP is a lightweight WordPress plugin that sends every email from your site through authenticated Gmail or Google Workspace SMTP instead of the unreliable PHP mail function. Add unlimited Gmail senders and route mail with Failover, Round-robin or Random strategies so your contact forms, WooCommerce orders, password resets and notifications always get delivered — even when one account hits its daily limit. It fixes deliverability by forcing the From header to match the authenticated account, and gives you a full email log with status, recipient and error details, plus a built-in test email tool and a spam-protected contact form.
 
