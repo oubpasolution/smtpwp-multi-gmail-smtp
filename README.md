@@ -1,10 +1,18 @@
-# SMTPWP — Multi Gmail SMTP
+# OUBPA Multi-Account SMTP Mailer
 
-![SMTPWP — Multi Gmail SMTP](SMTPWP-Multi-Gmail-SMTP.png)
+**Version:** 2.0.1
+**Requires at least:** WordPress 5.7
+**Requires PHP:** 7.4
+**License:** GPL-2.0-or-later
 
-SMTPWP is a lightweight WordPress plugin that sends every email from your site through authenticated Gmail or Google Workspace SMTP instead of the unreliable PHP mail function. Add unlimited Gmail senders and route mail with Failover, Round-robin or Random strategies so your contact forms, WooCommerce orders, password resets and notifications always get delivered — even when one account hits its daily limit. It fixes deliverability by forcing the From header to match the authenticated account, and gives you a full email log with status, recipient and error details, plus a built-in test email tool and a spam-protected contact form.
+![OUBPA Multi-Account SMTP Mailer](OUBPA-Multi-Account-SMTP-Mailer.png)
+
+
+OUBPA Multi-Account SMTP Mailer is a lightweight WordPress plugin that sends every email from your site through authenticated Gmail or Google Workspace SMTP instead of the unreliable PHP mail function. Add unlimited Gmail senders and route mail with Failover, Round-robin or Random strategies so your contact forms, WooCommerce orders, password resets and notifications always get delivered — even when one account hits its daily limit. It fixes deliverability by forcing the From header to match the authenticated account, and gives you a full email log with status, recipient and error details, plus a built-in test email tool and a spam-protected contact form.
+
 
 ## Core Features
+
 
 - **Unlimited Gmail / Google Workspace SMTP accounts** — each with its own label, From name, From email and optional Reply-To.
 - **One-click Gmail preset** — `smtp.gmail.com : 587 TLS` (or `465 SSL`).
@@ -21,11 +29,13 @@ SMTPWP is a lightweight WordPress plugin that sends every email from your site t
 - **Encrypted password storage** — AES-256-CBC via OpenSSL, keyed from your WordPress salts, with a plain-base64 fallback when OpenSSL is unavailable.
 - **Debug mode** — writes the full PHPMailer SMTP transcript to the PHP error log.
 - **Contact form shortcode** — spam-protected with a nonce and a honeypot.
-- **Multiple senders rotation** — Route emails through many Gmail accounts.
+- **Multiple senders rotation** — route emails through many Gmail accounts.
 - **Default sender control** — pin a specific sender or use the first active account.
 - **Clean, flat admin UI** — matches the WordPress admin.
 
-## Advanced Features (SMTPWP PRO)
+
+## Advanced Features (OUBPA Mailer PRO)
+
 
 - **Multi-provider SMTP** — Google Workspace, Outlook/Office 365, Amazon SES, SendGrid, Mailgun, Postmark and Brevo.
 - **Smart routing rules** — route emails by type (WooCommerce, password resets, contact forms) through their own sender and provider.
@@ -43,9 +53,11 @@ SMTPWP is a lightweight WordPress plugin that sends every email from your site t
 - **Automatic updates**
 - **Priority support**
 
+
 ## Instructions
 
-1. Install and activate the SMTPWP plugin from your WordPress dashboard.
+
+1. Install and activate the OUBPA Multi-Account SMTP Mailer plugin from your WordPress dashboard.
 2. Open the Gmail Guide tab and follow the steps to enable 2-Step Verification on your Google account.
 3. Create a Google App Password for the account and copy the 16-character code.
 4. Go to the Gmail Accounts tab, click Fill Gmail defaults, then enter a label, the From name, the From email, the Gmail username and the App Password.
@@ -54,17 +66,24 @@ SMTPWP is a lightweight WordPress plugin that sends every email from your site t
 7. Send a Test Email to confirm everything works.
 8. Keep log enabled to review every sent email, and enable Debug mode only while troubleshooting.
 
+
 ## Screenshots
 
-![Gmail Accounts](SMTPWP-Multi-Gmail-SMTP.png)
+
+![Gmail Accounts](OUBPA-Multi-Account-SMTP-Mailer.png)
+
 
 ![Sending & Log](sending.png)
 
+
 ![Test Email](test.png)
+
 
 ![Email Log](log.png)
 
+
 ## Contact
+
 
 - Author: Themestar Teams
 - Contact: https://oubpa.com/contact
