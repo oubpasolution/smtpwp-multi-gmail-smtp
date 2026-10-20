@@ -67,21 +67,6 @@ OUBPA Multi-Account SMTP Mailer is a lightweight WordPress plugin that sends eve
 8. Keep log enabled to review every sent email, and enable Debug mode only while troubleshooting.
 
 
-## Screenshots
-
-
-![Gmail Accounts](OUBPA-Multi-Account-SMTP-Mailer.png)
-
-
-![Sending & Log](sending.png)
-
-
-![Test Email](test.png)
-
-
-![Email Log](log.png)
-
-
 ## Contact
 
 
